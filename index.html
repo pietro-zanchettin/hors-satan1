@@ -1,114 +1,95 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hors Satan</title>
-  <style>
-    /* Reset minimale */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Hors Satan</title>
 
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 14px;
-      line-height: 1.5;
-      background: #ffffff;
-      color: #000000;
-      padding: 20px;
-    }
+<style>
 
-    a {
-      color: #000;
-      text-decoration: none;
-    }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-    a:hover {
-      text-decoration: underline;
-    }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.45;
+  background: #ffffff;
+  color: #000000;
+  padding: 20px;
+}
 
-    /* Header */
-    .header {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      margin-bottom: 80px;
-    }
+h1 {
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
 
-    .header-left {
-      max-width: 70%;
-    }
+a {
+  color: #000;
+  text-decoration: none;
+}
 
-    .header-right {
-      text-align: left;
-      max-width: 300px;
-    }
+a:hover {
+  color: #777;
+}
 
-    .italic {
-      font-style: italic;
-    }
+.section {
+  margin-bottom: 28px;
+}
 
-    .section {
-      margin-bottom: 40px;
-      max-width: 600px;
-    }
+.italic {
+  font-style: italic;
+}
 
-    .section-title {
-      margin-bottom: 10px;
-    }
+.footer {
+  margin-top: 40px;
+}
 
-    .exhibition {
-      margin-bottom: 6px;
-    }
-
-    /* Layout generale simile allo screenshot */
-    .container {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      width: 100%;
-    }
-
-   
-
-    /* Responsive */
-    @media (max-width: 800px) {
-      .container {
-        flex-direction: column;
-      }
-
-      .right-column {
-        margin-top: 40px;
-      }
-    }
-  </style>
+</style>
 </head>
+
 <body>
 
-  <div class="header">
-    <div class="header-left">
-      Hors Satan 
-      <br>
-      Current:
-Michael Snow La région centrale January 8 - March 24, 2026 Opening January 8, 5-9 pm
-<br>
-Past Exhibitions:
-Helmut Federe Paintings November 6 - December 19, 2025
-Cathy Wilkes What We Are Is Just Epitomes of the Same and You Should Never Come to the Monster Town September 9 - October 28, 2025
-<br>
-Via Mazzanti 4, Verona mail@horssatan.it +39 3911770040 Open Thu-Sat 12-18 and by Appointment Newsletter Instagram
+<h1>Hors Satan</h1>
 
-    </div>
+<div class="section">
+  <div>Current:</div>
+  <div>
+    Michael Snow <span class="italic">La région centrale</span>
+    January 8 - March 24, 2026
+    <strong>Opening January 8, 5-9 pm</strong>
+  </div>
+</div>
+
+<div class="section">
+  <div>Past Exhibitions:</div>
+
+  <div>
+    Helmut Federle <span class="italic">Paintings</span>
+    November 6 - December 19, 2025
   </div>
 
+  <div>
+    Cathy Wilkes
+    <span class="italic">
+    What We Are Is Just Epitomes of the Same and You Should Never Come to the Monster Town
+    </span>
+    September 9 - October 28, 2025
+  </div>
+</div>
 
-
-   
-
-   
+<div class="footer">
+  Via Mazzanti 4, Verona
+  <a href="mailto:mail@horssatan.it">mail@horssatan.it</a>
+  +39 3911770040
+  Open Thu-Sat 12-18 and by Appointment
+  <a href="#">Newsletter</a>
+  <a href="#">Instagram</a>
+</div>
 
 </body>
 </html>
